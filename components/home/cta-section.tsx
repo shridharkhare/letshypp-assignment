@@ -18,14 +18,14 @@ export function CTASection() {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link href="/booking">
-            <Button size="lg" className="bg-[#283782] hover:bg-[#1e2a61] text-white shadow-lg shadow-[#283782]/50 transition-all hover:shadow-xl hover:shadow-[#283782]/60">
+            <Button size="lg" className="bg-[#283782] hover:bg-[#1e2a61] text-white shadow-lg shadow-[#283782]/50 transition-all hover:shadow-xl hover:cursor-pointer hover:shadow-[#283782]/60">
               <ArrowRight className="w-5 h-5 mr-2" />
               Get Started Now
             </Button>
           </Link>
           
           <Link href="/contact">
-            <Button size="lg" variant="outline" className="bg-white border-2 border-white text-[#0f1729] hover:bg-transparent hover:text-white hover:border-white transition-all">
+            <Button size="lg" variant="outline" className="bg-white border-2 border-white text-[#0f1729] hover:bg-transparent hover:text-white hover:border-white hover:cursor-pointer transition-all">
               <Mail className="w-5 h-5 mr-2" />
               Contact Sales
             </Button>
